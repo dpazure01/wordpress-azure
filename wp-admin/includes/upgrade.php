@@ -194,7 +194,7 @@ if ( ! function_exists( 'wp_install_defaults' ) ) :
 			if ( ! $first_post ) {
 				$first_post = "<!-- wp:paragraph -->\n<p>" .
 				/* translators: first post content, %s: site link */
-				__( 'Welcome to %s. This is your first post. Edit or delete it, then start writing!' ) .
+				__( 'Welcome to %s. This is your third post 14 January 2020. Edit or delete it, then start writing!' ) .
 				"</p>\n<!-- /wp:paragraph -->";
 			}
 
@@ -209,7 +209,7 @@ if ( ! function_exists( 'wp_install_defaults' ) ) :
 		} else {
 			$first_post = "<!-- wp:paragraph -->\n<p>" .
 			/* translators: first post content, %s: site link */
-			__( 'Welcome to WordPress. This is your first post. Edit or delete it, then start writing!' ) .
+			__( 'Welcome to WordPress. This is your post from January 2020. Edit or delete it, then start writing!' ) .
 			"</p>\n<!-- /wp:paragraph -->";
 		}
 
